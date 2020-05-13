@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{25530ED9-31B6-4558-944A-EBCF9A95F8B4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EWSTesting</RootNamespace>
-    <AssemblyName>EWSTesting</AssemblyName>
+    <RootNamespace>EWSTestingDelegatedPermissions</RootNamespace>
+    <AssemblyName>EWSTestingDelegatedPermissions</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
