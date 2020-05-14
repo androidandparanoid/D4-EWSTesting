@@ -45,6 +45,10 @@ namespace ews_oauth_samples
                 //Impersonate the mailbox you'd like to access.
                 ewsClient.ImpersonatedUserId = new ImpersonatedUserId(ConnectingIdType.SmtpAddress, "hherrera@androidandparanoid.com");
 
+                Console.WriteLine($"Token: {result.AccessToken}");
+                //Console.WriteLine($"UserName: {result.Account.Username}");
+                Console.WriteLine($"Token Expiration: {result.ExpiresOn}");
+
                 // Make an EWS call
                 var folders = ewsClient.FindFolders(WellKnownFolderName.MsgFolderRoot, new FolderView(10));
                 foreach (var folder in folders)
